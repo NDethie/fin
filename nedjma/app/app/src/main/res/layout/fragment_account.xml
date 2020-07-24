@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="80dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        android:text="Miftakhul Hudha"
+        android:textColor="@color/colorblack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Android Developer"
+        android:textColor="@color/colorblack" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorwhite"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textSize="20sp"
+                android:textColor="@color/colorblack"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:columnCount="2">
+
+                <TextView
+                    android:text="Nama"
+                    android:textColor="@color/colorblack"/>
+                <TextView
+                    android:text="Miftakhul Hudha"
+                    android:layout_gravity="right"
+                    android:textColor="@color/colorblack"/>
+
+                <TextView
+                    android:text="No Telfon"
+                    android:textColor="@color/colorblack"/>
+                <TextView
+                    android:text="081575061297"
+                    android:layout_gravity="right"
+                    android:textColor="@color/colorblack"/>
+
+                <TextView
+                    android:text="Email"
+                    android:textColor="@color/colorblack"/>
+                <TextView
+                    android:text="mail@gmail.com"
+                    android:layout_gravity="right"
+                    android:textColor="@color/colorblack"/>
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:text="Tentang Saya"
+                android:textSize="20sp"
+                android:textColor="@color/colorblack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorblack"
+                android:layout_marginTop="16dp"
+                android:text="Saya orang yang sopan, dapat dipercaya, mudah bergaul dan menyenagkan."/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:minWidth="150dp"
+                android:text="Terhubung"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorbleu"
+                android:textColor="@color/colorblack"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>
